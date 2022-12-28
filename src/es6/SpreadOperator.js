@@ -1,4 +1,3 @@
-
 // SpreadOperator.js
 
 // 전개 연산자 (...)
@@ -63,7 +62,3 @@ second = tmp;
 
 // 잘못 사용한 예
 // var wrongArr = ...array1; 전개 연산자는 대괄호 안에서만 동작한다 [...array1]
-
-
-
-
