@@ -8,6 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+  {/*    사용자지정 문법 ->app.js의 내용이 출력된다.*/}
   </React.StrictMode>
 );
 
