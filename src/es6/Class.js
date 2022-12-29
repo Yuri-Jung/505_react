@@ -15,17 +15,19 @@ class Shape{
     // var나 let, const 같은 키워드를 사용하지 않는다
     name = 'Shape';
 
+    //메서드 선언
+    move(x,y){
+        this.x =x;
+        this.y = y;
+    }
+
     //생성자, 이름을 고정
     //생성자에서 this.변수명을 입력 시 멤버 변수가 선언이 된다
     constructor(x,y) {
         this.move(x,y);
     }
 
-    //메서드 선언
-    move(x,y){
-        this.x =x;
-        this.y = y;
-    }
+
 
     area(){
         return 0;
@@ -67,7 +69,7 @@ class Circle extends Shape {
 }
 
 var c = new Circle(0,0,10);
-console.log(c.area());
+console.log(c.area()); //100
 
 
 

@@ -12,7 +12,7 @@
 //      실행할 소스코드
 //      return 반환값
 // }
-
+//
 // 변수명 = (매개변수1, 매개변수2, ...) => 반환값;
 // 변수명 = 매개변수 => 반환값;
 // 변수명 = () => 반환값;
@@ -68,11 +68,11 @@ console.log(`리턴 받은 값 : ${data}`); //리턴 받은 값 : 20
 
 const es6Fun5 = a => a * 5;
 data = es6Fun5(10);
-console.log(`리턴 받은 값 : ${data}`);
+console.log(`리턴 받은 값 : ${data}`); //리턴 받은 값 : 50
 
 
 const es6Fun6 = () => console.log('es6Func6() 실행');
-es6Fun6();
+es6Fun6(); //es6Func6() 실행
 
 
 

@@ -50,16 +50,18 @@
 //    실패 시 실행할 내용
 // }
 
-import React from "react";
-import $ from "jquery";
+import React from "react"; //React에 대한 참조를 react패키지를 참조할 수 있도록 설정해 줄 수 있다.
+//요즘 새로 나오는 것들은 이런 것들을 굳이 하지 않아도 잘 실행된다고 한다.
+//실제로도 주석 처리하고 실행을 해봐도 잘 실행되고 있다
+import $ from "jquery"; //제이쿼리를 임포트 해온다.
 
 // 프로미스 객체를 사용할 함수
 function getData(){
     // 콜백 함수 선언 new Promise
-    return new Promise(function(resolve,reject){
+    return new Promise(function(resolve,reject){ // 성공시 .then resolve값을 실패시 .catch reject 값을 보여준다
         const data = 100;
 
-        resolve(data); //프로미스 사용 반환 값 : 100
+        resolve(data); //프로미스 사용 반환 값 : 100 // 100을 넣어 출력
         // reject(data); //프로미스 사용 오류 시 출력 : 100
     });
 }
